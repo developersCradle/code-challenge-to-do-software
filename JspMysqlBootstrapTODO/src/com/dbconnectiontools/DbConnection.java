@@ -46,7 +46,7 @@ public class DbConnection
 	private void getConnection() throws ClassNotFoundException, SQLException //Throwing these 2 Exceptions
 	{
 		Class.forName("org.sqlite.JDBC");  //Load our driver to driver manager
-		connection = DriverManager.getConnection("jdbc:sqlite:SQLiteTest7.db");
+		connection = DriverManager.getConnection("jdbc:sqlite:SQLiteTest11.db");
 		initialise();
 	}
 
@@ -88,7 +88,7 @@ public class DbConnection
 				preparedStatement2.setString(1, "tehtava2");
 				preparedStatement2.setString(2, "selite2");
 				preparedStatement2.setString(3, "2014-12-12");
-				preparedStatement2.setString(4, "1");
+				preparedStatement2.setString(4, "0");
 				preparedStatement2.execute();
 			}
 		

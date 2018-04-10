@@ -73,13 +73,15 @@ try
 			</div>
 
 			<div class="form-group">
+		
 				<label>Suoritettu</label>
-				<input type="hidden" name="suoritettu" value="<%= rs.getString("suoritettu") %>" class="form-control">
 				<input type="checkbox" name="suoritettu" value="<%= rs.getString("suoritettu") %>" class="form-control"> 
+
 			</div>
 			
+
 			
-			
+
 <%
 			
 	}//While loppuu tässä

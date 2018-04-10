@@ -101,7 +101,6 @@ pageEncoding="ISO-8859-1"%>
 									<td><%= rs.getString("selite") %></td>
 									<td><%= rs.getString("deadline") %></td>
 									<td><%= rs.getString("suoritettu") %></td>
-									<td><%= rs.getInt("uid") %></td>
 									<td>
 										<a href="editform.jsp?uid=<%= rs.getInt("uid") %>" class="btn btn-success" role="button">Muokkaa</a>
 										<a href="delete.jsp?uid=<%= rs.getInt("uid") %>" class="btn btn-danger" role="button">Poista</a>
