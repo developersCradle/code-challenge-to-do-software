@@ -8,7 +8,7 @@ pageEncoding="ISO-8859-1"%>
 <html>
 <head>
 	<!--linkataan Bootstrap ja jQuery cdn -->
-	<!--jQuery pitää laittaa ensimmäisenä -->
+	<!--jQuery pitï¿½ï¿½ laittaa ensimmï¿½isenï¿½ -->
 	<script
 	src="https://code.jquery.com/jquery-3.3.1.js"
 	integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
@@ -22,7 +22,7 @@ pageEncoding="ISO-8859-1"%>
 
 
 
-	<title>TODO applikaatio</title>
+	<title>To-Do applikaatio</title>
 
 	<style type="text/css">
 	hr 
@@ -57,7 +57,7 @@ pageEncoding="ISO-8859-1"%>
 					<form role="form" action="addNote.jsp" method="post">
 
 						<div class="form-group">
-							<label>Tehtävä</label>
+							<label>Tehtï¿½vï¿½</label>
 							<input type="text" class="form-control" name="tehtava">
 						</div>
 
@@ -71,7 +71,7 @@ pageEncoding="ISO-8859-1"%>
 							<input placeholder="2019-06-15" type="date" class="form-control" name="deadline">
 						</div>
 
-						<button class="btn btn-info btn-block" type="Submit">Lisää</button>
+						<button class="btn btn-info btn-block" type="Submit">Lisï¿½ï¿½</button>
 
 					</form>
 				</div>
@@ -80,7 +80,7 @@ pageEncoding="ISO-8859-1"%>
 					<table class="table">
 						<thead>
 							<tr>
-								<th>Tehtävä</th>
+								<th>Tehtï¿½vï¿½</th>
 								<th>Selite</th>
 								<th>Deadline</th>
 								<th>Suoritettu</th>
@@ -91,7 +91,7 @@ pageEncoding="ISO-8859-1"%>
 							
 							
 <%
-		while(rs.next()) //Todo hae tiedot tietorakenteeseen ja päivitä tiedot siitä
+		while(rs.next()) //Todo hae tiedot tietorakenteeseen ja pï¿½ivitï¿½ tiedot siitï¿½
 		{   
 %>
 								
@@ -111,7 +111,7 @@ pageEncoding="ISO-8859-1"%>
 <%
 		} // While loppuu
             	
-	}//Try loppuu tässä
+	}//Try loppuu tï¿½ssï¿½
 	catch(ClassNotFoundException e)
 	{
 		e.printStackTrace();

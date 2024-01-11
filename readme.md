@@ -1,7 +1,32 @@
 # To-do Software
 
-Small demonstration project of the To-Do list.
-`.war` runnable by Tomcat.
+## Task Eng
+
+Create simple To-Do list application.
+
+With the program, you can add new tasks to the list and view the contents of the list.
+Tasks on the list can also be edited, deleted and marked as done.
+The task has a description, deadline date, and information on whether the task has already been completed.
+
+Implementation in Java using the technologies and user interfaces of your choice, but without use of interface builder tools.
+
+The implementation does not have to be ready, and it does not have to have all the features, it is enough that the idea of ​​the structure and operation of the program is clear.
+
+## Task Fin
+
+Tarkoituksena olisi tehdä yksinkertainen To-Do lista ohjelma.
+
+Ohjelmalla voi lisätä uusia tehtäviä listalle ja katsoa listan sisältöä.
+Listalla olevia tehtäviä voi myös editoida, poistaa ja merkitä tehdyksi.
+Tehtävällä on tietoina selite, deadline päivä, sekä tieto siitä onko tehtävä jo suoritettu.
+
+
+Toteutus Java kielellä käyttäen haluamiasi tekniikoita ja käyttöliittymiä mutta kuitenkin ilman käyttöliittymä builder-työkaluja.
+Toteutuksen ei tarvitse olla valmis, eikä siinä tarvitse olla kaikkia ominaisuuksia, riittää että idea ohjelman rakenteesta ja toiminnasta selviää.
+
+<hr>
+
+Small demonstration project of the To-Do list. `.war` runnable by Tomcat.
 
 ![Image of program](kuva1.PNG)
 
