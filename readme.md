@@ -1,3 +1,12 @@
+
+<p id="logos" align="center">
+
+<img src="kide.png" style="float:left; margin-right:10px;" width="250"  height="70">
+    
+<img src="topconHealthCare.jpg" style="float:left;" width="250" height="70">
+
+</p>
+
 # To-do Software
 
 ## Task Eng
@@ -28,9 +37,9 @@ Toteutuksen ei tarvitse olla valmis, eikä siinä tarvitse olla kaikkia ominaisu
 
 Small demonstration project of the To-Do list. `.war` runnable by Tomcat.
 
-![Image of program](kuva1.PNG)
+<img id="kuva1" src="kuva2.PNG" alt="alt text" width="800"/>
 
-![Image of programs edit form](kuva2.PNG)
+<img id="kuva2" src="kuva1.PNG" alt="alt text" width="800"/>
 
 ## How to run
 
